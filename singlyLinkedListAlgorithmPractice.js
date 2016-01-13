@@ -16,17 +16,17 @@ function ListNode(val) {
     e.g for array [1,2,3], we construct list as 1 -> 2 -> 3
 */
 
-var arr = [1,2,3], list = {};
-for (var i = 0; i < arr.length - 1; i++){
-    var node = new ListNode(arr[i]);
-    node.next = arr[i + 1];
-    list[i] = node;
-}
-console.log('----list--->');
-console.log(list);
+var arr = [1,2,3], head;
+head = new ListNode(arr[0]);
+head.next = function(){
 
-//(2) Given a sorted linked list and a value, insert this value into the list and keep the list sorted.
-//e.g. for list 1 -> 2 -> 5 and value 4, we need output 1 -> 2 -> 4 -> 5
+};
+
+
+/*
+    (2) Given a sorted linked list and a value, insert this value into the list and keep the list sorted.
+    e.g. for list 1 -> 2 -> 5 and value 4, we need output 1 -> 2 -> 4 -> 5
+*/
 
 //(3) Given a linked list, reverse it.
 //e.g. for list 1 -> 2 -> 5, output 5 -> 2 -> 1
