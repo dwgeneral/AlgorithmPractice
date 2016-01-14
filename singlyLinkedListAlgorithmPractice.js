@@ -19,7 +19,6 @@ function ListNode(val) {
 var arr = [1,2,3], head;
 head = new ListNode(arr[0]);
 head.next = function(){
-
 };
 
 
